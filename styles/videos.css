@@ -1,0 +1,51 @@
+.mother-div,
+.mother-div2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  overflow-x: none;
+  right: 0;
+  margin-left: 90px;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.mother-div {
+  margin-top: 160px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.mother-div2 {
+  margin-top: 400px;
+  margin-bottom: 0;
+}
+
+.div1 img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bolded-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.channel-views {
+  font-size: 18px;
+  color: rgb(190, 185, 185);
+  line-height: 5px;
+}
+
+.underline {
+  position: absolute;
+  height: 5px;
+  border-radius: 1px;
+  background-color: grey;
+  bottom: -350px;
+  left: 100px;
+  right: 0;
+}
